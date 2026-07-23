@@ -15,20 +15,28 @@ The app provides a single-screen experience for counting dhikr with smooth anima
 
 ## Application Screenshots
 
-Screenshots are organized by the app user flow.  
-*(Digital Tasbeeh is a single-screen app — the flow covers the main counter experience.)*
+Screenshots are ordered by the app user flow.
 
-| Step | Screen |
-|------|--------|
-| 1 | Home / Counter (initial state) |
+| Step | Screen | File |
+|------|--------|------|
+| 1 | Home / Counter | `screenshots/01-home-counter.png` |
+| 2 | Reset Confirmation | `screenshots/02-reset-confirmation-dialog.png` |
 
-### Home / Counter
+### 1. Home / Counter
 
 <p align="center">
-  <img src="screenshots/01-home-counter-initial.png" alt="Digital Tasbeeh home screen with counter at zero" width="320">
+  <img src="screenshots/01-home-counter.png" alt="Digital Tasbeeh home screen with counter, tap button, and reset action" width="300">
 </p>
 
-<p align="center"><em>Home screen — title, counter at zero, Tap button, and Reset action.</em></p>
+<p align="center"><em>Main screen — title, counter at zero, Tap button, and Reset action.</em></p>
+
+### 2. Reset Confirmation
+
+<p align="center">
+  <img src="screenshots/02-reset-confirmation-dialog.png" alt="Reset counter confirmation dialog" width="300">
+</p>
+
+<p align="center"><em>Reset confirmation dialog — asks before clearing the counter to zero.</em></p>
 
 ## Architecture
 
