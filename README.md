@@ -13,6 +13,23 @@ The app provides a single-screen experience for counting dhikr with smooth anima
 - Responsive layout for portrait and landscape
 - Clean Architecture with Cubit, GetIt, and Repository pattern
 
+## Application Screenshots
+
+Screenshots are organized by the app user flow.  
+*(Digital Tasbeeh is a single-screen app — the flow covers the main counter experience.)*
+
+| Step | Screen |
+|------|--------|
+| 1 | Home / Counter (initial state) |
+
+### Home / Counter
+
+<p align="center">
+  <img src="screenshots/01-home-counter-initial.png" alt="Digital Tasbeeh home screen with counter at zero" width="320">
+</p>
+
+<p align="center"><em>Home screen — title, counter at zero, Tap button, and Reset action.</em></p>
+
 ## Architecture
 
 ```
@@ -90,6 +107,7 @@ flutter test
 
 - `assets/icons/app_icon.png` — App launcher icon
 - `assets/icons/tasbeeh_beads.svg` — Tasbeeh beads illustration
+- `screenshots/` — Application screenshots for documentation
 
 ## License
 
